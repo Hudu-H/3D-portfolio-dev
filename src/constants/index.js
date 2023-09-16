@@ -1,12 +1,11 @@
 import {
-  mobile,
-  backend,
-  creator,
   web,
+  frontend,
   javascript,
   typescript,
   html,
   css,
+  sass,
   reactjs,
   redux,
   tailwind,
@@ -14,15 +13,11 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
   bookapi,
-  tesla,
-  shopify,
   weather,
   covid,
-  tripguide,
   threejs,
+  bcnactua,
 } from "../assets";
 
 export const navLinks = [
@@ -71,6 +66,7 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
+    threejs,
   },
   {
     name: "TypeScript",
@@ -87,6 +83,7 @@ const technologies = [
   {
     name: "Scss",
     icon: sass,
+    tailwind,
   },
   {
     name: "Node JS",
@@ -135,8 +132,8 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "On_Process",
-    icon: on_process,
+    company_name: "On_Progress",
+    icon: bcnactua,
     iconBg: "101010",
     date: "Sept 2023 - Present",
     points: [
