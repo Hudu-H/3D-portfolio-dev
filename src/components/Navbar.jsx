@@ -24,14 +24,20 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Hudu <span className="sm:block hidden">| Frontend Developer</span>
+          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
+            Hudu &nbsp;
+            <span className="sm:block hidden">| Frontend Developer</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((link) => (
-            <li>
-              <a href={`#${link.id}`}>{link.title}</a>
+          {navLinks.map((nav) => (
+            <li
+              key={nav.id}
+              className={`${
+                active === nav.title ? "text-white" : "text-secondary"
+              }`}
+            >
+              <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
         </ul>
