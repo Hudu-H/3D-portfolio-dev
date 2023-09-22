@@ -5,7 +5,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import bcnactua from "./company/bcnatua.png";
+import freelance from "./company/freelance.png";
 import css from "./tech/css.png";
 import sass from "./tech/sass.png";
 import figma from "./tech/figma.png";
@@ -47,5 +47,5 @@ export {
   bookapi,
   weather,
   covid,
-  bcnactua
+  freelance
 };

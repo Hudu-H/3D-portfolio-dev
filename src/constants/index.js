@@ -17,7 +17,7 @@ import {
   weather,
   covid,
   threejs,
-  bcnactua,
+  freelance,
 } from "../assets";
 
 export const navLinks = [
@@ -106,8 +106,8 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "BcnActua",
-    icon: bcnactua,
+    company_name: "Frealance",
+    icon: freelance,
     iconBg: "#101010",
     date: "Dec 2022 - Dec 2023",
     points: [
@@ -119,8 +119,8 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "BcnActua",
-    icon: bcnactua,
+    company_name: "Freelance",
+    icon: freelance,
     iconBg: "101010",
     date: "Dec 2022 - Dec 2023",
     points: [
@@ -132,8 +132,8 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "On_Progress",
-    icon: bcnactua,
+    company_name: "In_Progress",
+    icon: freelance,
     iconBg: "101010",
     date: "Sept 2023 - Present",
     points: [
@@ -167,7 +167,7 @@ const testimonials = [
       "After learning javascript, I knew typescript was from same hood as js.",
     name: "Fodio",
     designation: "Frontend Dev",
-    company: "456 Enterprises",
+    company: "none",
     image: "https://unsplash.com/photos/LEpfefQf4rU",
   },
 ];
