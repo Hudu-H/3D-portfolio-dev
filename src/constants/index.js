@@ -18,7 +18,6 @@ import {
   covid,
   threejs,
   freelance,
-  image,
 } from "../assets";
 
 export const navLinks = [
@@ -149,27 +148,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I never imagined building projects personally as a junior developer, through consistency I have moved further.",
+      "Web development is sometimes fun, especially building with react.js but not when you're stack due to bugs.",
     name: "Fodio",
     designation: "Frontend Dev",
     company: "none",
-    image: {image},
+    image: "https://randomuser.me/api/portraits/women/26.jpg",
   },
   {
     testimonial:
-      "I had always thought software development was all about java, untill I met javascript.",
+      "I had always thought software development was all about java, until I met javascript.",
     name: "Fodio",
     designation: "Frontend Dev",
     company: "none",
-    image: "https://unsplash.com/photos/75715CVEJhI",
+    image: "https://randomuser.me/api/portraits/men/59.jpg",
   },
   {
     testimonial:
-      "After learning javascript, I knew typescript was from same hood as js.",
+      "After learning javascript, I knew typescript was not that much different.",
     name: "Fodio",
     designation: "Frontend Dev",
     company: "none",
-    image: "https://unsplash.com/photos/LEpfefQf4rU",
+    image: "https://randomuser.me/api/portraits/women/85.jpg",
   },
 ];
 
