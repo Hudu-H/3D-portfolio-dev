@@ -176,18 +176,18 @@ const projects = [
   {
     name: "Weather App",
     description:
-      "A weather API that fetches climatic data within a 24 hour period of a specific region or city.",
+      "A weather API that fetches climatic data within a 24 hour period of a specific region or city, built using fetch api getting data from openweather api.",
     tags: [
       {
         name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "HTML",
+        name: "html",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
@@ -200,12 +200,16 @@ const projects = [
       "Web application that enables users to search for books of all kind, view prices, availability, language choice and order placements for paper bag or virtual.",
     tags: [
       {
-        name: "react",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
         name: "restapi",
         color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
       },
       {
         name: "scss",
@@ -218,15 +222,19 @@ const projects = [
   {
     name: "Covid tracker",
     description:
-      "API data fetch app of covid infected countries, created to track the number of active, recovery and death cases per a geographical region and as well providing preventive measures.",
+      "API data fetch app of covid infected countries, created to track data of active, recovery and death cases of a region as well preventive measures.",
     tags: [
       {
-        name: "Javascript",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "API",
+        name: "api",
         color: "green-text-gradient",
+      },
+      {
+        name: "ajax",
+        color: "blue-text-gradient",
       },
       {
         name: "css",
