@@ -18,6 +18,7 @@ import {
   covid,
   threejs,
   freelance,
+  image,
 } from "../assets";
 
 export const navLinks = [
@@ -152,7 +153,7 @@ const testimonials = [
     name: "Fodio",
     designation: "Frontend Dev",
     company: "none",
-    image: "https://unsplash.com/photos/mBRfYA0dYYE",
+    image: {image},
   },
   {
     testimonial:
