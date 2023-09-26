@@ -19,6 +19,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import image from "./image.png";
 
 import bookapi from "./bookapi.png";
 import weather from "./weather.png";
@@ -47,5 +48,6 @@ export {
   bookapi,
   weather,
   covid,
-  freelance
+  freelance,
+  image
 };
