@@ -16,11 +16,52 @@ const Contact = () => {
     email: "",
     message: "",
   });
+
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => {};
+    setForm({ ...form, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .send(
+        "service_68vivyj",
+        "template_cssss0q",
+        {
+          from_name: form.name,
+          to_name: "Hudu",
+          from_email: form.email,
+          to_email: "ahmedhudu21@gmail.com",
+          meassage: form.message,
+        },
+        "TT2EJLfgRaurudyOQ"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Gracias, I will get back shortly.");
+
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+
+          console.log(error);
+
+          alert("Something went wrong.");
+        }
+      );
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -71,19 +112,19 @@ const Contact = () => {
           </label>
 
           <button
-          type="submit"
-          className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+            type="submit"
+            className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
           >
-            {loading ? 'Sending...' : 'Send'}
+            {loading ? "Sending..." : "Send"}
           </button>
         </form>
       </motion.div>
 
       <motion.div
-       variants={slideIn("right", "tween", 0.2, 1)}
-       className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
-          <EarthCanvas />
+        <EarthCanvas />
       </motion.div>
     </div>
   );
