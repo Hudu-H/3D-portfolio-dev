@@ -148,7 +148,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Web development is sometimes fun, especially building with react.js but not when you're stack due to bugs.",
+      "Web development is sometimes fun, especially building with react.js but not when you're stack.",
     name: "Fodio",
     designation: "Frontend Dev",
     company: "none",
@@ -157,7 +157,7 @@ const testimonials = [
   {
     testimonial:
       "I had always thought software development was all about java, until I met javascript.",
-    name: "Fodio",
+    name: "Hudu",
     designation: "Frontend Dev",
     company: "none",
     image: "https://randomuser.me/api/portraits/men/59.jpg",
@@ -165,7 +165,7 @@ const testimonials = [
   {
     testimonial:
       "After learning javascript, I knew typescript was not that much different.",
-    name: "Fodio",
+    name: "Hamed",
     designation: "Frontend Dev",
     company: "none",
     image: "https://randomuser.me/api/portraits/women/85.jpg",
